@@ -1,0 +1,11 @@
+{
+  "name": "simple-css-reset",
+  "version": "2.0.3",
+  "homepage": "https://github.com/mirego/simple-css-reset",
+  "authors": [
+    "Rémi Prévost <rprevost@mirego.com>"
+  ],
+  "description": "A simple, no-nonsense CSS reset stylesheet to use a Bower dependency.",
+  "main": "reset.css",
+  "license": "MIT"
+}

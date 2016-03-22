@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<section id="loginBox">
+        <h2>Login</h2>
+	<form  class="login"   name="loginform" onsubmit="return formValidate()">
+		<label for="username">
+			Username:
+			<input type="text" name="username" id="username" maxlength="56" />
+		</label>
+		<label for="password">
+			Password:
+			<input type="password" name="password" id="password" />
+		</label>
+		<label for="confirmpassword">
+			Confirm Password:
+			<input type="password" name="confirmpassword" id="confirmpassword" />
+		</label>
+		<label for="firstname">
+			Firstname:
+			<input type="text" name="firstname" id="firstname" maxlength="50"/>
+		</label>
+		<label for="lastname">
+			Lastname:
+			<input type="text" name="lastname" id="lastname" maxlength="50"/>
+		</label>
+		<label for="birthday">
+			Birthday:
+			<input type="text" name="birthday" id="birthday" placeholder="MM/DD/YYYY" />
+		</label>
+		<input type="submit" value="Sign in" class="btn-minimal" />
+		
+	</form>
+        </section>
+<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
