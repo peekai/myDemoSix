@@ -1,0 +1,66 @@
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+}
+
+.header {
+    padding: 10px 0 0 0;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+.logo a {
+    display: block;
+    height: 185px;
+    width: 557px;
+    background: url(../img/Logo.jpg) no-repeat 3px 2px;
+}
+
+.menu {
+    padding-left: 9%;
+    padding-top: 7%;
+}
+
+ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #999;
+}
+
+ul li a {
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    color: #999;
+    transition: all .2s;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.menu ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul li a:visited {
+    color: black;
+    font-weight: bold;
+}
